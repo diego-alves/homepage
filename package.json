@@ -12,7 +12,7 @@
 		"lint": "prettier --check .",
 		"test:unit": "vitest",
 		"test": "npm run test:unit -- --run",
-		"deploy": "pnpm build && pnpx gh-pages -d build -t true"
+		"deploy": "pnpm build && pnpx gh-pages -d build --cname home.dalves.cloud -t true"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",

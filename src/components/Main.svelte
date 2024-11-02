@@ -5,7 +5,7 @@
 	<section id="introPage" class="grid grid-cols-1 gap-10 py-8 sm:py-14">
 		<div class="flex flex-col gap-6 text-center md:gap-8 lg:justify-center lg:gap-10 lg:text-left">
 			<h2 class="text-4xl font-semibold sm:text-5xl md:text-6xl">
-				Olá! Eu sou <span class="text-violet-400">Diego</span><br />
+				Olá! Eu sou <span class="text-violet-400">Diego Alves</span><br />
 				<span class="text-violet-400">Desenvolvedor</span> Back-End
 			</h2>
 			<p class="text-base sm:text-lg md:text-xl">

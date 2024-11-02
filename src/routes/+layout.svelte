@@ -18,11 +18,15 @@
 		class={'fixed bottom-0 z-[10] flex w-full p-10 duration-200 ' +
 			(y > 0 ? ' opacity-full pointer-events-auto' : ' pointer-events-none opacity-0')}
 	>
-		<button aria-label="up">
-			<i class="fa-solid fa-arrow-up"></i>
+		<button
+			aria-label="up"
+			onclick={goTop}
+			class="ml-auto cursor-pointer rounded-full bg-slate-900 px-3 text-violet-400 hover:bg-slate-800 sm:px-4"
+		>
+			<i class="fa-solid fa-arrow-up grid place-items-center aspect-square"></i>
 		</button>
 	</div>
-	<Header />
+	<Header {y} />
 	{@render children()}
 	<Footer />
 </div>

@@ -25,4 +25,6 @@
 			</a>
 		</div>
 	</section>
+    <section id="projects"></section>
+    <section id="about"></section>
 </main>

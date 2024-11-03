@@ -4,21 +4,18 @@
 	let steps = [
 		{
 			name: 'PagBank',
-			icon: 'fa-solid fa-cart-shopping',
-			description:
-				'PagBank is a a merchanising store created with Next.js, Commerce.js & Stripe! Commerce.js is a CMS for managing project and Stripe is used for all transaction handling.'
+			icon: 'fa-solid fa-credit-card',
+			href: 'https://pagbank.com'
 		},
 		{
 			name: 'Chiper',
-			icon: 'fa-solid fa-list-check',
-			description:
-				'Test for model robustness with customized test profiles and receive exhaustive reporting on the performance and potential vulnerabilities of your model.'
+			icon: 'fa-solid fa-cart-shopping',
+			href: 'https://chiper.co'
 		},
 		{
 			name: 'Care',
-			icon: 'fa-solid fa-diagram-project',
-			description:
-				'Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).'
+			icon: 'fa-solid fa-stethoscope',
+			href: 'https://appcare.com.co'
 		}
 	];
 

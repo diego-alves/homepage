@@ -48,7 +48,7 @@
 			</h2>
 			<p class="text-base sm:text-lg md:text-xl">
 				Minhas <span class="text-violet-400"> tech favoritas</span> includes Microserviços, Java (Sprint),
-				Node.js (Jest.js), Cloud (AWS, GPC), SQL (Oracle, Mysql).
+				Node.js (Nest.js), Cloud (AWS, GPC), SQL (Oracle, Mysql).
 			</p>
 			<button
 				class="blueShadow poppins group relative mx-auto overflow-hidden rounded-full bg-white px-6 py-3 text-base text-slate-950 sm:text-lg md:text-xl lg:ml-0 lg:mr-auto"

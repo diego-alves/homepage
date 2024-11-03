@@ -27,7 +27,7 @@
 				'Muito do que aprendi foi sozinho usando recursos online gratuitos e me apaixonei pela resolução de problemas envolvidas no desenvolvimento e engenharia de novas tecnologias inovadoras. Comecei com Java e evoluí minha base de conhecimento para incluir Node.js, Python, Golang, serviços em nuvem e muito mais.'
 		},
 		{
-			name: 'tenho habilidades em lógica e estrutura de dados',
+			name: 'habilidoso em lógica e estrutura de dados',
 			description:
 				'Tenho um forte domínio em lógica e estruturas de dados, o que me permite criar sistemas eficientes e escaláveis. Esse conhecimento é essencial para manipular e organizar informações de forma otimizada, facilitando tarefas como ordenação e busca de dados. Assim, consigo escrever códigos mais rápidos e limpos, melhorando o desempenho e garantindo que a aplicação seja fácil de escalar.'
 		},

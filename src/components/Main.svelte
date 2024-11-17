@@ -44,11 +44,10 @@
 	<section id="introPage" class="grid grid-cols-1 gap-10 py-8 sm:py-14 lg:grid-cols-2">
 		<div class="flex flex-col gap-6 text-center md:gap-8 lg:justify-center lg:gap-10 lg:text-left">
 			<h2 class="text-4xl font-semibold sm:text-5xl md:text-6xl">
-				{@html m.hello()}
+				{@html m.hello({ name: 'Diego', surname: 'Alves' })}
 			</h2>
 			<p class="text-base sm:text-lg md:text-xl">
-				Minhas <span class="text-violet-400"> tech favoritas</span> includes Microserviços, Java (Sprint),
-				Node.js (Nest.js), Cloud (AWS, GPC), SQL (Oracle, Mysql).
+				{@html m.sub_hello()}
 			</p>
 			<button
 				class="blueShadow poppins group relative mx-auto overflow-hidden rounded-full bg-white px-6 py-3 text-base text-slate-950 sm:text-lg md:text-xl lg:ml-0 lg:mr-auto"

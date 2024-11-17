@@ -24,5 +24,9 @@
 	"complete_package": "El paquete <span class=\"text-violet-400\">Completo</span>",
 	"candidate": "Candidato",
 	"me": "Yo",
-	"invest": "Entonces, ¿por qué no invertir?"
+	"invest": "Entonces, ¿por qué no invertir?",
+	"dedication": "Dedicación",
+	"critical_thinking": "Pensamiento crítico",
+	"interpersonal_skills": "Habilidades interpersonales",
+	"programming_skills": "Habilidades de programación"
 }

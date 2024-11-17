@@ -1,4 +1,5 @@
 <script>
+	import * as m from '$lib/paraglide/messages.js';
 	export let step;
 </script>
 
@@ -20,7 +21,7 @@
 		<div
 			class="relative ml-auto cursor-pointer overflow-hidden duration-200 after:absolute after:right-full after:top-0 after:z-[-1] after:h-0 after:h-full after:w-full after:bg-white after:duration-200 hover:text-slate-950 hover:after:translate-x-full"
 		>
-			<p class="z-4">Saiba mais &rarr;</p>
+			<p class="z-4">{m.know_more_short()} &rarr;</p>
 		</div>
 	</div>
 </a>

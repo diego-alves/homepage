@@ -23,16 +23,16 @@
 	let benefits = [
 		{
 			metric: '10x',
-			name: m.benefits_auto_title,
-			description: m.benefits_auto_description
+			name: m.benefits_auto_title(),
+			description: m.benefits_auto_description()
 		},
 		{
-			name: m.benefits_skill_title,
-			description: m.benefits_skill_description
+			name: m.benefits_skill_title(),
+			description: m.benefits_skill_description()
 		},
 		{
-			name: m.benefits_comm_title,
-			description: m.benefits_comm_description
+			name: m.benefits_comm_title(),
+			description: m.benefits_comm_description()
 		}
 	];
 </script>
@@ -80,9 +80,9 @@
 	</section>
 	<section class="flex flex-col gap-24 py-20 lg:py-32" id="projects">
 		<div class="flex flex-col gap-2 text-center">
-			<h6 class="text-large sm:text-xl md:text-2xl">Um pouco de onde trabalhei.</h6>
+			<h6 class="text-large sm:text-xl md:text-2xl">{m.a_bit_where_worked()}</h6>
 			<h3 class="text-3xl font-semibold sm:text-4xl md:text-5xl">
-				Curioso para <span class="poppins text-violet-400">ver</span> meu trabalho?
+				{@html m.curious_to_see_my_work()}
 			</h3>
 		</div>
 		<!-- <a
@@ -96,41 +96,17 @@
 		<div class="grid grid-cols-1 gap-12 lg:grid-cols-3 lg:gap-10">
 			<Step step={steps[0]}>
 				<p>
-					O PagBank é uma plataforma digital de pagamentos e serviços financeiros, voltada para
-					atender pessoas físicas e pequenas empresas com soluções como contas digitais, cartões,
-					empréstimos e investimentos. Para garantir alta <strong class="text-violet-400"
-						>disponibilidade, segurança e escalabilidade</strong
-					>
-					para milhões de transações diárias, mantendo uma experiência de usuário fluida sua infraestrutura
-					inclue o uso de
-					<strong class="text-violet-400">centenas de microsserviços</strong>
-					para modularidade e a aplicação de arquiteturas distribuídas em linguagens como
-					<strong class="text-violet-400">Java & Kotlin</strong>.
+					{@html m.work_pagbank()}
 				</p>
 			</Step>
 			<Step step={steps[1]}>
 				<p>
-					A Chiper é uma startup colombiana que atua como plataforma de compras e distribuição para
-					pequenos comerciantes e mercearias locais na América Latina onde o principal desafio é
-					criar uma infraestrutura robusta que suporte operações complexas de logística, controle de
-					estoque e pedidos em tempo real e para isso usamos utiliza tecnologias como <strong
-						class="text-violet-400">Node.js & Python</strong
-					>
-					para o desenvolvimento back-end,
-					<strong class="text-violet-400">React & React Native</strong> para o front-end e mobile.
+					{@html m.work_chiper()}
 				</p>
 			</Step>
 			<Step step={steps[2]}>
 				<p>
-					A AppCare também é uma startup colombiana mas que atua facilitando o agendamento,
-					realização e acompanhamento de consultas, conectando médicos e pacientes em uma plataforma
-					digital. Utilizando tecnologias como <strong class="text-violet-400">Node.js</strong> para
-					o back-end, junto a framework de front-end
-					<strong class="text-violet-400">Next.js</strong>, essa aplicação pode oferecer
-					funcionalidades de vídeo-chamadas, notificações em tempo real, e gestão de prontuários
-					eletrônicos. Seu desenvolvimento com ferramentas como
-					<strong class="text-violet-400">Twilio, Agora, Algolia e models de IA</strong> para apoio de
-					diagnotiscos.
+					{@html m.work_care()}
 				</p>
 			</Step>
 		</div>
@@ -143,12 +119,12 @@
 		<div
 			class="relative flex flex-col gap-2 py-4 text-center before:absolute before:left-0 before:top-0 before:h-1.5 before:w-2/3 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:h-1.5 after:w-2/3 after:bg-violet-700"
 		>
-			<h6 class="text-large sm:text-xl md:text-2xl">Quer saber mais?</h6>
+			<h6 class="text-large sm:text-xl md:text-2xl">{m.know_more()}</h6>
 			<h3 class="text-3xl font-semibold sm:text-4xl md:text-5xl">
-				Um pouco <span class="poppins text-violet-400">sobre</span> mim.
+				{@html m.a_bit_about_me()}
 			</h3>
 		</div>
-		<p class="poppins mx-auto text-lg font-semibold sm:text-xl md:text-2xl">Eu sou . . .</p>
+		<p class="poppins mx-auto text-lg font-semibold sm:text-xl md:text-2xl">{m.i_am()} . . .</p>
 		<div class="mx-auto flex w-full max-w-[800px] flex-col gap-20">
 			{#each benefits as benefit, index}
 				<!-- <div class="flex flex-col gap-2 mx-auto">

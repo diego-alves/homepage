@@ -11,5 +11,13 @@
 	"benefits_skill_title": "habilidoso em lógica e estrutura de dados",
 	"benefits_skill_description": "Tenho um forte domínio em lógica e estruturas de dados, o que me permite criar sistemas eficientes e escaláveis. Esse conhecimento é essencial para manipular e organizar informações de forma otimizada, facilitando tarefas como ordenação e busca de dados. Assim, consigo escrever códigos mais rápidos e limpos, melhorando o desempenho e garantindo que a aplicação seja fácil de escalar.",
 	"benefits_comm_title": "um excelente comunicador",
-	"benefits_comm_description": "A comunicação é fundamental e é um valor essencial para mim. Acredito em transparência e comunicação construtiva acima de tudo. Isso me ajuda a desenvolver relacionamentos profundos e garante minha eficácia e produtividade em qualquer ambiente de trabalho e com qualquer equipe."
+	"benefits_comm_description": "A comunicação é fundamental e é um valor essencial para mim. Acredito em transparência e comunicação construtiva acima de tudo. Isso me ajuda a desenvolver relacionamentos profundos e garante minha eficácia e produtividade em qualquer ambiente de trabalho e com qualquer equipe.",
+	"i_am": "Eu sou",
+	"know_more": "Quer saber mais?",
+	"a_bit_about_me": "Um pouco <span class=\"poppins text-violet-400\">sobre</span> mim.",
+	"a_bit_where_worked": "Um pouco de onde trabalhei.",
+	"curious_to_see_my_work": "Curioso para <span class=\"poppins text-violet-400\">ver</span> meu trabalho?",
+	"work_pagbank": "O PagBank é uma plataforma digital de pagamentos e serviços financeiros, voltada para atender pessoas físicas e pequenas empresas com soluções como contas digitais, cartões, empréstimos e investimentos. Para garantir alta <strong class=\"text-violet-400\">disponibilidade, segurança e escalabilidade</strong> para milhões de transações diárias, mantendo uma experiência de usuário fluida sua infraestrutura inclue o uso de <strong class=\"text-violet-400\">centenas de microsserviços</strong> para modularidade e a aplicação de arquiteturas distribuídas em linguagens como <strong class=\"text-violet-400\">Java & Kotlin</strong>.",
+	"work_chiper": "",
+	"work_care": ""
 }

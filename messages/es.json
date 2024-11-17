@@ -1,4 +1,5 @@
 {
 	"$schema": "https://inlang.com/schema/inlang-message-format",
-	"hello_world": "Hola, {name} from es!"
+	"hello_world": "Hola, {name} from es!",
+	"hello": "Hola! Soy <span class=\"poppins text-violet-400\">{name}</span> {surname}<br /> <span class=\"poppins text-violet-400\">Desarrollador</span> Back-End "
 }

@@ -2,5 +2,5 @@
 	"$schema": "https://inlang.com/schema/inlang-message-format",
 	"hello_world": "Olá, {name} from pt-br!",
 	"hello": "Olá! Eu sou <span class=\"poppins text-violet-400\">{name}</span> {surname}<br /><span class=\"poppins text-violet-400\">Desenvolvedor</span> Back-End",
-	"sub_hello": "Minhas tecnologias favoritas incluem Microserviços, Java (Sprint), Node.js (Nest.js), Cloud (AWS, GPC), SQL (Oracle, Mysql)."
+	"sub_hello": "Minhas tecnologias favoritas incluem microserviços, Java (Sprint), Node.js (Nest.js), Cloud (AWS, GPC), SQL (Oracle, Mysql)."
 }

@@ -1,4 +1,5 @@
-<script>
+<script lang="ts">
+	import LanguageSelector from './LanguageSelector.svelte';
 	export let y;
 
 	export let tabs = [
@@ -43,5 +44,6 @@
 			></div>
 			<h4 class="z-9 relative">Entre em Contato</h4>
 		</button>
+		<LanguageSelector />
 	</div>
 </header>

@@ -55,14 +55,14 @@
 			>
 				<div
 					class="absolute right-full top-0 z-0 h-full w-full bg-violet-400 opacity-20 duration-200 group-hover:translate-x-full"
-				/>
+				></div>
 				<h4 class="z-9 relative">Entre em contato &rarr;</h4>
 			</button>
 		</div>
 		<div class="relative grid place-items-center shadow-2xl">
 			<img
 				src={'https://i.ibb.co/0rjDd9X/profile.png'}
-				alt="Profile Picture"
+				alt="Profile"
 				class="z-[2] max-h-[70vh] object-cover"
 			/>
 		</div>
@@ -190,7 +190,7 @@
 			<table class="rounded bg-white text-center text-slate-700">
 				<thead class={'border-b border-solid border-slate-200  '}>
 					<tr class="">
-						<th />
+						<th></th>
 						<th class="whitespace-nowrap p-2 px-4">Cadidato #1</th>
 						<th class="whitespace-nowrap p-2 px-4">Cadidato #2</th>
 						<th class="whitespace-nowrap p-2 px-4">Cadidato #3</th>
@@ -202,37 +202,37 @@
 						<td class="border-r border-solid border-white py-4 pl-4 pr-8 text-sm font-semibold"
 							>Dedicação</td
 						>
-						<td><i class="fa-solid fa-xmark text-slate-500" /></td>
-						<td><i class="fa-solid fa-check text-slate-500" /></td>
-						<td><i class="fa-solid fa-xmark text-slate-500" /></td>
-						<td><i class="fa-solid fa-check text-green-500" /></td>
+						<td><i class="fa-solid fa-xmark text-slate-500"></i></td>
+						<td><i class="fa-solid fa-check text-slate-500"></i></td>
+						<td><i class="fa-solid fa-xmark text-slate-500"></i></td>
+						<td><i class="fa-solid fa-check text-green-500"></i></td>
 					</tr>
 					<tr class="border-b border-solid border-slate-200">
 						<td class="border-r border-solid border-white py-4 pl-4 pr-8 text-sm font-semibold"
 							>Pensamento crítico</td
 						>
-						<td><i class="fa-solid fa-xmark text-slate-500" /></td>
-						<td><i class="fa-solid fa-check text-slate-500" /></td>
-						<td><i class="fa-solid fa-check text-slate-500" /></td>
-						<td><i class="fa-solid fa-check text-green-500" /></td>
+						<td><i class="fa-solid fa-xmark text-slate-500"></i></td>
+						<td><i class="fa-solid fa-check text-slate-500"></i></td>
+						<td><i class="fa-solid fa-check text-slate-500"></i></td>
+						<td><i class="fa-solid fa-check text-green-500"></i></td>
 					</tr>
 					<tr>
 						<td class="border-r border-solid border-white py-4 pl-4 pr-8 text-sm font-semibold"
 							>Habilidades Interpessoais</td
 						>
-						<td><i class="fa-solid fa-check text-slate-500" /></td>
-						<td><i class="fa-solid fa-check text-slate-500" /></td>
-						<td><i class="fa-solid fa-xmark text-slate-500" /></td>
-						<td><i class="fa-solid fa-check text-green-500" /></td>
+						<td><i class="fa-solid fa-check text-slate-500"></i></td>
+						<td><i class="fa-solid fa-check text-slate-500"></i></td>
+						<td><i class="fa-solid fa-xmark text-slate-500"></i></td>
+						<td><i class="fa-solid fa-check text-green-500"></i></td>
 					</tr>
 					<tr class="border-t border-solid border-slate-200">
 						<td class="border-r border-solid border-white py-4 pl-4 pr-8 text-sm font-semibold"
 							>Habilidade em Programação</td
 						>
-						<td><i class="fa-solid fa-check text-slate-500" /></td>
-						<td><i class="fa-solid fa-xmark text-slate-500" /></td>
-						<td><i class="fa-solid fa-check text-slate-500" /></td>
-						<td><i class="fa-solid fa-check text-green-500" /></td>
+						<td><i class="fa-solid fa-check text-slate-500"></i></td>
+						<td><i class="fa-solid fa-xmark text-slate-500"></i></td>
+						<td><i class="fa-solid fa-check text-slate-500"></i></td>
+						<td><i class="fa-solid fa-check text-green-500"></i></td>
 					</tr>
 				</tbody>
 			</table>

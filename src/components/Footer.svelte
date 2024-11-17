@@ -21,7 +21,7 @@
 			<a href=" " target="_blank" class="text-violet-400"
 				>diego-alves<sup class=""
 					><span class="scale-75 pl-0.5 text-xs"
-						><i class="fa-solid fa-arrow-up-right-from-square scale-[75%] text-xs" /></span
+						><i class="fa-solid fa-arrow-up-right-from-square scale-[75%] text-xs" ></i></span
 					></sup
 				></a
 			>
@@ -31,7 +31,7 @@
 			<a href=" " target="_blank" class="text-violet-400"
 				>dfqalves<sup class=""
 					><span class="scale-75 pl-0.5 text-xs"
-						><i class="fa-solid fa-arrow-up-right-from-square scale-[75%] text-xs" /></span
+						><i class="fa-solid fa-arrow-up-right-from-square scale-[75%] text-xs" ></i></span
 					></sup
 				></a
 			>

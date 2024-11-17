@@ -10,7 +10,7 @@
 	<div
 		class="mx-auto -mt-10 grid place-items-center bg-slate-950 px-4 text-5xl duration-200 sm:-mt-12 md:-mt-14 md:text-6xl lg:-mt-16"
 	>
-		<i class={step.icon} />
+		<i class={step.icon} ></i>
 	</div>
 	<h3 class="text-xl font-medium sm:text-2xl md:text-3xl">
 		{step.name}

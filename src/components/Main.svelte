@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Step from './Step.svelte';
+	import * as m from '$lib/paraglide/messages.js';
 
 	let steps = [
 		{
@@ -43,8 +44,7 @@
 	<section id="introPage" class="grid grid-cols-1 gap-10 py-8 sm:py-14 lg:grid-cols-2">
 		<div class="flex flex-col gap-6 text-center md:gap-8 lg:justify-center lg:gap-10 lg:text-left">
 			<h2 class="text-4xl font-semibold sm:text-5xl md:text-6xl">
-				Olá! Eu sou <span class="poppins text-violet-400">Diego</span> Alves
-				<br /><span class="poppins text-violet-400">Desenvolvedor</span> Back-End
+				{@html m.hello()}
 			</h2>
 			<p class="text-base sm:text-lg md:text-xl">
 				Minhas <span class="text-violet-400"> tech favoritas</span> includes Microserviços, Java (Sprint),

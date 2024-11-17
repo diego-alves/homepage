@@ -1,0 +1,5 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"hello_world": "Hello, {name} from en!",
+	"hello": "Hello! I am <span class=\"poppins text-violet-400\">Diego</span> Alves<br />Back-End <span class=\"poppins text-violet-400\">Developer</span> "
+}

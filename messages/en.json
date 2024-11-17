@@ -20,5 +20,13 @@
 	"work_pagbank": "PagBank is a digital payment and financial services platform, focused on serving individuals and small businesses with solutions such as digital accounts, cards, loans and investments. To ensure high <strong class=\"text-violet-400\">availability, security and scalability</strong> for millions of daily transactions, while maintaining a fluid user experience, its infrastructure includes the use of <strong class=\"text-violet-400\">hundreds of microservices</strong> for modularity and the application of distributed architectures in languages ​​such <strong class=\"text-violet-400\">Java & Kotlin</strong>.",
 	"work_chiper": "Chiper is a Colombian startup that operates as a purchasing and distribution platform for small merchants and local grocers in Latin America where the main challenge is to create a robust infrastructure that supports complex logistics operations, inventory control and real-time orders and for this we use technologies such as <strong class=\"text-violet-400\">Node.js & Python</strong> for back-end development, <strong class=\"text-violet-400\">React & React Native</strong> for front-end and mobile.",
 	"work_care": "AppCare is also a Colombian startup that works to facilitate the scheduling, execution and monitoring of consultations, connecting doctors and patients on a digital platform. Using technologies such as <strong class=\"text-violet-400\">Node.js</strong> for the back-end, together with the front-end framework <strong class=\"text-violet-400\">Next.js</strong>, this application can offer video calling features, real-time notifications, and electronic medical record management. Its development with tools such as <strong class=\"text-violet-400\">Twilio, Agora, Algolia and AI models</strong> to support diagnostics.",
-	"know_more_short": "Learn more"
+	"know_more_short": "Learn more",
+	"complete_package": "The <span class=\"text-violet-400\">Complete</span> Package",
+	"candidate": "Candidate",
+	"me": "I",
+	"dedication": "Dedication",
+	"critical_thinking": "Critical Thinking",
+	"interpersonal_skills": "Interpersonal Skills",
+	"programming_skills": "Programming Skills",
+	"invest": "So why not invest?"
 }

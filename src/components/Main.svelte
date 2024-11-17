@@ -156,23 +156,23 @@
 			{/each}
 		</div>
 		<h5 class={' poppins text-center text-2xl font-semibold sm:text-3xl '}>
-			O Pacote <span class="text-violet-400">Completo</span>
+			{@html m.complete_package()}
 		</h5>
 		<div class="mx-auto flex w-full max-w-[800px] flex-col gap-10 overflow-x-scroll">
 			<table class="rounded bg-white text-center text-slate-700">
 				<thead class={'border-b border-solid border-slate-200  '}>
 					<tr class="">
 						<th></th>
-						<th class="whitespace-nowrap p-2 px-4">Cadidato #1</th>
-						<th class="whitespace-nowrap p-2 px-4">Cadidato #2</th>
-						<th class="whitespace-nowrap p-2 px-4">Cadidato #3</th>
-						<th class="whitespace-nowrap bg-violet-700 p-4 px-8 text-white">Eu</th>
+						<th class="whitespace-nowrap p-2 px-4">{m.candidate()} #1</th>
+						<th class="whitespace-nowrap p-2 px-4">{m.candidate()} #2</th>
+						<th class="whitespace-nowrap p-2 px-4">{m.candidate()} #3</th>
+						<th class="whitespace-nowrap bg-violet-700 p-4 px-8 text-white">{m.me()}</th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr class="border-b border-solid border-slate-200">
 						<td class="border-r border-solid border-white py-4 pl-4 pr-8 text-sm font-semibold"
-							>Dedicação</td
+							>{m.dedication()}</td
 						>
 						<td><i class="fa-solid fa-xmark text-slate-500"></i></td>
 						<td><i class="fa-solid fa-check text-slate-500"></i></td>
@@ -181,7 +181,7 @@
 					</tr>
 					<tr class="border-b border-solid border-slate-200">
 						<td class="border-r border-solid border-white py-4 pl-4 pr-8 text-sm font-semibold"
-							>Pensamento crítico</td
+							>{m.critical_thinking()}</td
 						>
 						<td><i class="fa-solid fa-xmark text-slate-500"></i></td>
 						<td><i class="fa-solid fa-check text-slate-500"></i></td>
@@ -190,7 +190,7 @@
 					</tr>
 					<tr>
 						<td class="border-r border-solid border-white py-4 pl-4 pr-8 text-sm font-semibold"
-							>Habilidades Interpessoais</td
+							>{m.interpersonal_skills()}</td
 						>
 						<td><i class="fa-solid fa-check text-slate-500"></i></td>
 						<td><i class="fa-solid fa-check text-slate-500"></i></td>
@@ -199,7 +199,7 @@
 					</tr>
 					<tr class="border-t border-solid border-slate-200">
 						<td class="border-r border-solid border-white py-4 pl-4 pr-8 text-sm font-semibold"
-							>Habilidade em Programação</td
+							>{m.programming_skills()}</td
 						>
 						<td><i class="fa-solid fa-check text-slate-500"></i></td>
 						<td><i class="fa-solid fa-xmark text-slate-500"></i></td>
@@ -209,9 +209,9 @@
 				</tbody>
 			</table>
 		</div>
-		<div class="mx-auto -mt-12 italic opacity-50 sm:hidden">
+		<div class="mx-auto -mt-12 italic opacity-50 sm:hidden ">
 			<p>Role para ver mais &rarr;</p>
 		</div>
-		<p class="mx-auto">Então, porque não investir?</p>
+		<p class="mx-auto">{m.invest()}</p>
 	</section>
 </main>

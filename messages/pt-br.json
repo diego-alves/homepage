@@ -18,6 +18,11 @@
 	"a_bit_where_worked": "Um pouco de onde trabalhei.",
 	"curious_to_see_my_work": "Curioso para <span class=\"poppins text-violet-400\">ver</span> meu trabalho?",
 	"work_pagbank": "O PagBank é uma plataforma digital de pagamentos e serviços financeiros, voltada para atender pessoas físicas e pequenas empresas com soluções como contas digitais, cartões, empréstimos e investimentos. Para garantir alta <strong class=\"text-violet-400\">disponibilidade, segurança e escalabilidade</strong> para milhões de transações diárias, mantendo uma experiência de usuário fluida sua infraestrutura inclue o uso de <strong class=\"text-violet-400\">centenas de microsserviços</strong> para modularidade e a aplicação de arquiteturas distribuídas em linguagens como <strong class=\"text-violet-400\">Java & Kotlin</strong>.",
-	"work_chiper": "",
-	"work_care": ""
+	"work_chiper": "A Chiper é uma startup colombiana que atua como plataforma de compras e distribuição para pequenos comerciantes e mercearias locais na América Latina onde o principal desafio é criar uma infraestrutura robusta que suporte operações complexas de logística, controle de estoque e pedidos em tempo real e para isso usamos utiliza tecnologias como <strong class=\"text-violet-400\">Node.js & Python</strong > para o desenvolvimento back-end, <strong class=\"text-violet-400\">React & React Native</strong> para o front-end e mobile.",
+	"work_care": "A AppCare também é uma startup colombiana mas que atua facilitando o agendamento, realização e acompanhamento de consultas, conectando médicos e pacientes em uma plataforma digital. Utilizando tecnologias como <strong class=\"text-violet-400\">Node.js</strong> para o back-end, junto a framework de front-end <strong class=\"text-violet-400\">Next.js</strong>, essa aplicação pode oferecer funcionalidades de vídeo-chamadas, notificações em tempo real, e gestão de prontuários eletrônicos. Seu desenvolvimento com ferramentas como <strong class=\"text-violet-400\">Twilio, Agora, Algolia e models de IA</strong> para apoio de diagnotiscos.",
+	"know_more_short": "Saiba mais",
+	"complete_package": "O Pacote <span class=\"text-violet-400\">Completo</span>",
+	"candidate": "Cadidato",
+	"me": "Eu",
+	"invest": "Então, porque não investir?"
 }

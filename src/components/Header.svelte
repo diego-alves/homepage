@@ -1,10 +1,11 @@
 <script lang="ts">
 	import LanguageSelector from './LanguageSelector.svelte';
 	export let y;
+	import * as m from '$lib/paraglide/messages.js';
 
 	export let tabs = [
-		{ name: 'Projetos ', link: '#projects' },
-		{ name: 'Sobre', link: '#about' }
+		{ name: m.projects(), link: '#projects' },
+		{ name: m.about(), link: '#about' }
 		// { name: 'Blog', link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' }
 		// { name: "Contact", link: "" },
 		// {name: '', link: ''},
@@ -42,7 +43,7 @@
 			<div
 				class="absolute right-full top-0 z-0 h-full w-full bg-violet-400 opacity-20 duration-200 group-hover:translate-x-full"
 			></div>
-			<h4 class="z-9 relative">Entre em Contato</h4>
+			<h4 class="z-9 relative">{m.contact()}</h4>
 		</button>
 		<LanguageSelector />
 	</div>

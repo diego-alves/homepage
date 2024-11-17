@@ -55,7 +55,7 @@
 				<div
 					class="absolute right-full top-0 z-0 h-full w-full bg-violet-400 opacity-20 duration-200 group-hover:translate-x-full"
 				></div>
-				<h4 class="z-9 relative">Entre em contato &rarr;</h4>
+				<h4 class="z-9 relative">{m.contact()} &rarr;</h4>
 			</button>
 		</div>
 		<div class="relative grid place-items-center shadow-2xl">

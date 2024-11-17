@@ -5,5 +5,11 @@
 	"sub_hello": "My <span class=\"poppins text-violet-400\">favorite techs</span> includes microservices, Java (Sprint), Node.js (Nest.js), Cloud (AWS, GPC), SQL (Oracle, Mysql).",
 	"projects": "Projects",
 	"about": "About Me",
-	"contact": "Get in touch"
+	"contact": "Get in touch",
+	"benefits_auto_title": "a self-taught developer",
+	"benefits_auto_description": "I learned a lot of things on my own using free online resources, and I fell in love with the problem-solving involved in developing and engineering new, innovative technologies. I started with Java and expanded my knowledge base to include Node.js, Python, Golang, cloud services, and more.",
+	"benefits_skill_title": "skilled in logic and data structure",
+	"benefits_skill_description": "I have a strong command of logic and data structures, which allows me to create efficient and scalable systems. This knowledge is essential for manipulating and organizing information in an optimized way, facilitating tasks such as sorting and searching data. This allows me to write faster and cleaner code, improving performance and ensuring that the application is easy to scale.",
+	"benefits_comm_title": "an excellent communicator",
+	"benefits_comm_description": "Communication is key and is a core value for me. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work environment and with any team."
 }

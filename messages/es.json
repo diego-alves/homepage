@@ -5,5 +5,11 @@
 	"sub_hello": "Mis <span class=\"poppins text-violet-400\">tecnologías favoritas</span> incluyen microservicios, Java (Sprint), Node.js (Nest.js), Cloud (AWS, GPC), SQL (Oracle, Mysql).",
 	"projects": "Proyectos",
 	"about": "Acerca de mí",
-	"contact": "Ponte en contacto"
+	"contact": "Ponte en contacto",
+	"benefits_auto_title": "un desarrollador autodidacta",
+	"benefits_auto_description": "Aprendí muchas cosas por mi cuenta utilizando recursos gratuitos en línea y me enamoré de la resolución de problemas que implica el desarrollo y la ingeniería de tecnologías nuevas e innovadoras. Empecé con Java y amplié mi base de conocimientos para incluir Node.js, Python, Golang, servicios en la nube y más.",
+	"benefits_skill_title": "Experto en lógica y estructura de datos.",
+	"benefits_skill_description": "Tengo un fuerte dominio de la lógica y las estructuras de datos, lo que me permite crear sistemas eficientes y escalables. Este conocimiento es fundamental para manipular y organizar la información de forma optimizada, facilitando tareas como la ordenación y búsqueda de datos. Esto me permite escribir código más rápido y limpio, mejorando el rendimiento y asegurando que la aplicación sea fácil de escalar.",
+	"benefits_comm_title": "Un excelente comunicador",
+	"benefits_comm_description": "La comunicación es fundamental y un valor fundamental para mí. Creo en la transparencia y la comunicación constructiva por encima de todo. Esto me ayuda a desarrollar relaciones profundas y garantiza mi eficacia y productividad en cualquier entorno de trabajo y con cualquier equipo."
 }
